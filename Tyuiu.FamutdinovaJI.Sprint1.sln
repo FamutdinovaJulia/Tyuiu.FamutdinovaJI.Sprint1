@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{794062FC-1966-4778-9D8D-A36C69FD4AA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0", "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0\Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.csproj", "{A6872D62-6D60-408B-93A5-53F4B7652477}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FamutdinovaJI.Sprint1.Task0.V28", "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0\Tyuiu.FamutdinovaJI.Sprint1.Task0.V28.csproj", "{A6872D62-6D60-408B-93A5-53F4B7652477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Lib", "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Lib\Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Lib.csproj", "{87E3C693-25EA-4845-AC0D-E257BFD03C01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FamutdinovaJI.Sprint1.Task0.V28.Lib", "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Lib\Tyuiu.FamutdinovaJI.Sprint1.Task0.V28.Lib.csproj", "{87E3C693-25EA-4845-AC0D-E257BFD03C01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Test", "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Test\Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Test.csproj", "{B9A11431-DDF3-4445-83D0-5F39817179AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FamutdinovaJI.Sprint1.Task0.V28.Test", "Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Test\Tyuiu.FamutdinovaJI.Sprint1.Task0.V28.Test.csproj", "{B9A11431-DDF3-4445-83D0-5F39817179AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
