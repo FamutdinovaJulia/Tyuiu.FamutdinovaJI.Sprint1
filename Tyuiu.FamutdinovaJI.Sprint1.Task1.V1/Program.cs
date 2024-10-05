@@ -1,5 +1,6 @@
-﻿using Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Lib;
-namespace Tyuiu.FamutdinovaJI.Sprint1.Task0.V0
+﻿using Tyuiu.FamutdinovaJI.Sprint1.Task1.V1.Lib;
+
+namespace Tyuiu.FamutdinovaJI.Sprint1.Task1.V1
 {
     internal class Program
     {
@@ -11,23 +12,34 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task0.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
-            Console.WriteLine("* Задание #0                                                             *");
-            Console.WriteLine("* Вариант #28                                                             *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнила: Фамутдинова Юлия Ильфатовна | ИИПб-24-2                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет выражение 48/12 - 48/6/4          *");
-            Console.WriteLine("* и печатает результат на экране.                                         *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+            Console.WriteLine("* вычисляет результат по формуле x/3/y+6*a и печатает его на экране.      *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* 48/12 - 48/6/4                                                          *");
+
+            double x, y, a;
+
+            Console.WriteLine("Введите значение Х:");
+            x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение Y:");
+            y = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение A:");
+            a = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate());
+            Console.WriteLine(ds.Calculate(x, y, a));
 
             Console.ReadLine();
         }
