@@ -10,9 +10,9 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task1.V1.Test
             DataService ds = new DataService();
             double x = 9.0;
             double y = 3.0;
-            double a = 2.0;
+            double a = 1.0;
             var res = ds.Calculate(x, y, a);
-            Assert.AreEqual(13, res);
+            Assert.AreEqual(7, res);
 
         }
     }
