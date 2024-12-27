@@ -6,7 +6,8 @@
         {
             double s = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2);
             double s1 = Math.Abs(s);
-            double res = 0.5 * s1;
+            double res1 = 0.5 * s1;
+            double res = Math.Round(res1, 3);
             return res;
         }
     }
