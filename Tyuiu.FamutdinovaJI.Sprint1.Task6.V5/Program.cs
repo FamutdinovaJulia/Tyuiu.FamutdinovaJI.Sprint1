@@ -1,5 +1,5 @@
-﻿using Tyuiu.FamutdinovaJI.Sprint1.Task5.V3.Lib;
-namespace Tyuiu.FamutdinovaJI.Sprint1.Task5.V3
+﻿using Tyuiu.FamutdinovaJI.Sprint1.Task6.V5.Lib;
+namespace Tyuiu.FamutdinovaJI.Sprint1.Task6.V5
 {
     internal class Program
     {
@@ -10,9 +10,9 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task5.V3
             Console.Title = "Спринт #1 | Выполнила: Фамутдинова Ю. И. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #3                                                              *");
+            Console.WriteLine("* Тема: Работа со строками класс String                                   *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнила: Фамутдинова Юлия Ильфатовна | ИИПб-24-2                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -23,18 +23,16 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task5.V3
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int k;
-
-            Console.WriteLine("Введите k:");
-            k = (int)Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите строку:");
+            string str = Console.ReadLine();
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Ответ = " + ds.Calculate(k));
+            Console.WriteLine(ds.Reverse(str));
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
