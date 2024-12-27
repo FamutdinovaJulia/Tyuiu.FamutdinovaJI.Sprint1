@@ -1,5 +1,5 @@
-﻿using Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Lib;
-namespace Tyuiu.FamutdinovaJI.Sprint1.Task0.V0
+﻿using Tyuiu.FamutdinovaJI.Sprint1.Task2.V1.Lib;
+namespace Tyuiu.FamutdinovaJI.Sprint1.Task2.V1
 {
     internal class Program
     {
@@ -10,24 +10,29 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task0.V0
             Console.Title = "Спринт #1 | Выполнила: Фамутдинова Ю. И. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #28                                                             *");
+            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнила: Фамутдинова Юлия Ильфатовна | ИИПб-24-2                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет выражение 48/12 - 48/6/4          *");
-            Console.WriteLine("* и печатает результат на экране.                                         *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* 48/12 - 48/6/4                                                          *");
+
+            int x;
+
+            Console.WriteLine("Введите расстояние в километрах:");
+            x = (int)Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate());
+            Console.WriteLine("Расстояние в милях = " + ds.Calculate(x));
 
             Console.ReadLine();
         }

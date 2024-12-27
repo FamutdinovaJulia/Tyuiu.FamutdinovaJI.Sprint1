@@ -1,5 +1,5 @@
-﻿using Tyuiu.FamutdinovaJI.Sprint1.Task0.V0.Lib;
-namespace Tyuiu.FamutdinovaJI.Sprint1.Task0.V0
+﻿using Tyuiu.FamutdinovaJI.Sprint1.Task3.V11.Lib;
+namespace Tyuiu.FamutdinovaJI.Sprint1.Task3.V11
 {
     internal class Program
     {
@@ -10,24 +10,44 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task0.V0
             Console.Title = "Спринт #1 | Выполнила: Фамутдинова Ю. И. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #28                                                             *");
+            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #11                                                             *");
             Console.WriteLine("* Выполнила: Фамутдинова Юлия Ильфатовна | ИИПб-24-2                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет выражение 48/12 - 48/6/4          *");
-            Console.WriteLine("* и печатает результат на экране.                                         *");
+            Console.WriteLine("* Напишите программу, которая вычисляет площадь треугольника, если        *");
+            Console.WriteLine("* известны координаты его углов.                                          *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* 48/12 - 48/6/4                                                          *");
+
+            int x1, y1, x2, y2, x3, y3;
+
+            Console.WriteLine("Введите х1:");
+            x1 = (int)Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите y1:");
+            y1 = (int)Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите х2:");
+            x2 = (int)Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите y2:");
+            y2 = (int)Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите х3:");
+            x3 = (int)Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите y3:");
+            y3 = (int)Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate());
+            Console.WriteLine("Площадь треугольника = " + ds.Calculate(x1, y1, x2, y2, x3, y3) + " кв.см");
 
             Console.ReadLine();
         }
