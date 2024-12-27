@@ -2,6 +2,13 @@
 {
     public class DataService
     {
-
+        public double Calculate(double x, double y)
+        {
+            double q = 1 + Math.Sqrt(x * y);
+            double d = Math.Pow(x - 3*y,2);
+            double res1 = q / d;
+            double res = Math.Round(res1, 3);
+            return res;
+        }
     }
 }
