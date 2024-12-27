@@ -1,5 +1,5 @@
-﻿using Tyuiu.FamutdinovaJI.Sprint1.Task3.V11.Lib;
-namespace Tyuiu.FamutdinovaJI.Sprint1.Task3.V11
+﻿using Tyuiu.FamutdinovaJI.Sprint1.Task5.V3.Lib;
+namespace Tyuiu.FamutdinovaJI.Sprint1.Task5.V3
 {
     internal class Program
     {
@@ -10,44 +10,29 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task3.V11
             Console.Title = "Спринт #1 | Выполнила: Фамутдинова Ю. И. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #11                                                             *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #3                                                              *");
             Console.WriteLine("* Выполнила: Фамутдинова Юлия Ильфатовна | ИИПб-24-2                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Напишите программу, которая вычисляет площадь треугольника, если        *");
-            Console.WriteLine("* известны координаты его углов.                                          *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+            Console.WriteLine("* вычисляет результат по формуле и печатает его на экране.                *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x1, y1, x2, y2, x3, y3;
+            int k;
 
-            Console.WriteLine("Введите х1:");
-            x1 = (int)Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите y1:");
-            y1 = (int)Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите х2:");
-            x2 = (int)Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите y2:");
-            y2 = (int)Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите х3:");
-            x3 = (int)Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите y3:");
-            y3 = (int)Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите k:");
+            k = (int)Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Площадь треугольника = " + ds.Calculate(x1, y1, x2, y2, x3, y3) + " кв.см");
+            Console.WriteLine("Ответ = " + ds.Calculate(k));
 
             Console.ReadLine();
         }

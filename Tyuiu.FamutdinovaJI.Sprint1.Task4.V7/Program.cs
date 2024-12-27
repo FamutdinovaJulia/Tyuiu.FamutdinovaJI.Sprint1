@@ -10,9 +10,9 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task3.V11
             Console.Title = "Спринт #1 | Выполнила: Фамутдинова Ю. И. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #11                                                             *");
+            Console.WriteLine("* Тема: Class Math                                                        *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #7                                                              *");
             Console.WriteLine("* Выполнила: Фамутдинова Юлия Ильфатовна | ИИПб-24-2                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
