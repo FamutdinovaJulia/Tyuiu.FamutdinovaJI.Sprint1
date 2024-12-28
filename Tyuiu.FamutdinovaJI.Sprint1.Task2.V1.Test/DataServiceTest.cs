@@ -8,9 +8,9 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task2.V1.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double x = 6;
-            var res = ds.ConvertKmToM(x);
-            Assert.AreEqual(3.729, res);
+            int x = 6;
+            double res = ds.ConvertKmToM(x);
+            Assert.AreEqual(9.654, res);
         }
     }
 }

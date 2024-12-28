@@ -6,7 +6,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task2.V1.Lib
     {
         public double ConvertKmToM(int value)
         {
-            double y = (value / 1.609);
+            double y = (value * 1.609);
             double res = Math.Round(y, 3);
             return res;
         }
