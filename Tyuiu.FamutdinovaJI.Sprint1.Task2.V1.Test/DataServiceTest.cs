@@ -9,7 +9,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task2.V1.Test
         {
             DataService ds = new DataService();
             double x = 6;
-            var res = ds.Calculate(x);
+            var res = ds.ConvertKmToM(x);
             Assert.AreEqual(3.729, res);
         }
     }

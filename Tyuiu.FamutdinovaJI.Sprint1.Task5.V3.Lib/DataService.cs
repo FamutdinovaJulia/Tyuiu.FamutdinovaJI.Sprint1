@@ -1,14 +1,15 @@
 ﻿using System.Globalization;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.FamutdinovaJI.Sprint1.Task5.V3.Lib
 {
-    public class DataService
+    public class DataService: ISprint1Task5V3
     {
-        public double Calculate(double k)
+        int ISprint1Task5V3.Calculate(int k)
         {
             double res0 = (k % 1000) / 100;
             double res = Math.Floor(res0);
-            return res;
+            return (int)res;
         }
     }
 }

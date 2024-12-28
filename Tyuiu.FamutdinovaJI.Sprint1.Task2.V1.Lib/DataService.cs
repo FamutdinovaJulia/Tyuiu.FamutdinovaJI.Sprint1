@@ -1,11 +1,13 @@
-﻿namespace Tyuiu.FamutdinovaJI.Sprint1.Task2.V1.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+
+namespace Tyuiu.FamutdinovaJI.Sprint1.Task2.V1.Lib
 {
-    public class DataService
+    public class DataService: ISprint1Task2V1
     {
-        public double Calculate(double x)
+        public double ConvertKmToM(int value)
         {
-            double y = (x / 1.609);
-            double res = Math.Round(y,3);
+            double y = (value / 1.609);
+            double res = Math.Round(y, 3);
             return res;
         }
     }

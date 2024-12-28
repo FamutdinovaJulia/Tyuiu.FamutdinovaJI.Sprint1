@@ -47,7 +47,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task3.V11
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Площадь треугольника = " + ds.Calculate(x1, y1, x2, y2, x3, y3) + " кв.см");
+            Console.WriteLine("Площадь треугольника = " + ds.TriangleArea(x1, y1, x2, y2, x3, y3) + " кв.см");
 
             Console.ReadLine();
         }

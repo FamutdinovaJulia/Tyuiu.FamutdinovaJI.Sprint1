@@ -32,7 +32,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task2.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Расстояние в милях = " + ds.Calculate(x));
+            Console.WriteLine("Расстояние в милях = " + ds.ConvertKmToM(x));
 
             Console.ReadLine();
         }
