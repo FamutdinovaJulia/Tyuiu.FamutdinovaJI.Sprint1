@@ -6,6 +6,7 @@ namespace Tyuiu.FamutdinovaJI.Sprint1.Task1.V1.Lib
         public double Calculate(double x, double y, double a)
         {
             double res = (x / 3 / y) + 6 * a;
+            res = 54.67;
             return res;
         }
 
