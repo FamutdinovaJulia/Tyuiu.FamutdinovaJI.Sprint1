@@ -1,4 +1,5 @@
-﻿namespace Tyuiu.FamutdinovaJI.Sprint1.Task7.V8.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+namespace Tyuiu.FamutdinovaJI.Sprint1.Task7.V8.Lib
 {
     public class DataService
     {
